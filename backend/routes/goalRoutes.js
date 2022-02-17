@@ -5,7 +5,7 @@ const {
     setGoal,
     updateGoal,
     deleteGoal,
-} = require('../controllers/goalControllers');
+} = require('../controllers/goalController');
 
 const { protect } = require('../middleware/authMiddleware');
 
